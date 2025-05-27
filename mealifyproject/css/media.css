@@ -1,0 +1,232 @@
+
+
+/* =====================media query styling============ */
+
+@media screen and (min-width: 768px) {
+    /* ===============global styling============== */
+    .container {
+        padding: 40px 5px;
+        max-width: 720px;
+        margin: auto;
+    }
+
+    /* ================ chefs section========== */
+    #chefs .container .chefs-cards {
+        text-align: center;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+
+      .chefs-cards .card {
+        width: calc(50% - 15px);
+      }
+
+      /* =============== contact us section==========*/
+
+      #contact .contact-details .details {
+        width: calc( 50% - 10px);
+        margin: 0;
+      }
+
+      #contact .contact-details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      /* =================footer styling================ */
+
+      .footer .about {
+        width: 50%;
+      }
+
+      .footer .contact-details {
+        width: 50%;
+      }
+
+      .footer .contact-details h3 {
+        margin-top: 0;
+      }
+
+      .footer .subscribtion {
+        order: 1;
+      }
+
+      .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .footer .subscribtion input {
+        display: inline;
+        width: 75%;
+      }
+      .footer .subscribtion button {
+        width: 24%;
+        padding: 8px;
+      }
+}
+
+
+
+
+/* ======================== second query===================== */
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+        /* ===============global styling============== */
+    .container {
+        padding: 40px 5px;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    /* =================home section================ */
+
+    #home .container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 150px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .container .home-content {
+    text-align: left;
+    }
+
+    .home-content .home-btns .left-btn {
+    border-radius: 0 25px 25px 25px;
+    }
+
+    /* ===============chefs section============= */
+
+    .chefs-cards .card {
+        width: calc(33% - 20px);
+      }
+
+      /* ================= contact section=========== */
+
+      #contact form .input-group {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+      }
+
+
+    }
+
+
+
+
+
+
+
+
+
+/* =====================third section=============== */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+        /* ===============global styling============== */
+    .container {
+        padding: 40px 5px;
+        max-width: 1140px;
+        margin: auto;
+    }
+
+    /* ====================navbar styling============ */
+
+    #navbar .container ul li a {
+        margin-inline: 15px;
+    }
+
+    /* ==============footer section============= */
+
+    .footer .about {
+        width: 24%;
+      }
+
+      .footer .contact-details {
+        width: 25%;
+      }
+
+      .footer .contact-details h3 {
+        margin-top: 0;
+      }
+
+      .footer .subscribtion {
+        order: 0;
+        width: 49%;
+      }
+
+      .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 11px;
+      }
+
+      .footer .subscribtion h3 {
+        margin-top: 0;
+      }
+
+      .footer .subscribtion ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        padding: 0;
+      }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    .container {
+        padding: 40px 5px;
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    #home .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .container .home-content {
+        width: 30%;
+    }
+
+    #home .container .home-image {
+        width: 40%;
+    }
+
+    .home-content .home-btns {
+        margin-top: 50px;
+    }
+
+    .home-content .home-btns .left-btn {
+        border-radius: 0 25px 25px 25px;
+        padding: 10px 20px;
+        }
+    
+}

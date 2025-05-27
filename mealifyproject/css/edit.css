@@ -1,0 +1,31 @@
+body{
+    background-image: url(../images/background1.jpg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 80px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form .upd-btn {
+    width: 50%;
+   background-color: tomato; 
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    margin-block: 10px;
+    color: white;
+}
